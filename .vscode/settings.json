@@ -1,4 +1,13 @@
 {
-	"rust-analyzer.cargo.targetDir": "target/rust-analyzer",
-	"rust-analyzer.check.allTargets": false
+  "rust-analyzer.cargo.targetDir": "target/rust-analyzer",
+  "rust-analyzer.check.allTargets": false,
+  "task.allowAutomaticTasks": true,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
 }
