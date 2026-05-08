@@ -12,10 +12,6 @@ node_modules
 dist
 dist-ssr
 *.local
-.env
-.env.production
-.env.development
-.env.test
 target
 target-agent
 target-phase8
@@ -24,7 +20,6 @@ outputs
 .github/hooks
 
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
 .idea
@@ -77,3 +72,4 @@ analysis/
 analysis/plans/
 .ralphy
 tmp/
+config.bat
