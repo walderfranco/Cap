@@ -12,10 +12,6 @@ node_modules
 dist
 dist-ssr
 *.local
-.env
-.env.production
-.env.development
-.env.test
 target
 target-agent
 target-phase8
@@ -77,3 +73,4 @@ analysis/
 analysis/plans/
 .ralphy
 tmp/
+config.bat
